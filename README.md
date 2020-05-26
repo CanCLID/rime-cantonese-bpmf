@@ -2,7 +2,7 @@
   <ruby> 
     粵 <rp>(</rp><rt>ㄩㆵ</rt><rp>)</rp>
     語 <rp>(</rp><rt>ㄩ</rt><rp>)</rp>
-    註 <rp>(</rp><rt>ㄐㄩ</rt><rp>)</rp>
+    注 <rp>(</rp><rt>ㄐㄩ</rt><rp>)</rp>
     音 <rp>(</rp><rt>ㄧㆿㄇ</rt><rp>)</rp>
     輸 <rp>(</rp><rt>ㄒㄩ</rt><rp>)</rp>
     入 <rp>(</rp><rt>ㄧㆿㆴ</rt><rp>)</rp>
