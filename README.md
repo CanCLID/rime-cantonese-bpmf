@@ -8,4 +8,4 @@
 
 ## 安裝
 東風破口令:
-`bash rime-install tanxpyox/rime-cantonese/bpmf`
+`bash rime-install tanxpyox/rime-cantonese-bpmf`
