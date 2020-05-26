@@ -3,7 +3,7 @@
 
 schema:
   schema_id: jyut6ping3_bpmf_ng
-  name: 粵語拼音（人民政府注音版）
+  name: 粵語拼音（國民政府注音版）
   version: "2020.05.26"
   author:
     - sgalal <ayaka@mail.shn.hk>
@@ -113,6 +113,11 @@ translator:
   prism: jyut6ping3_bpmf_ng
   spelling_hints: 8
   preedit_format:
+    # m/ng 轉換
+    - xform/(^|[ '])(m)(qq?|xx?|vv?)?($|[ '])/$1ㆬ$3$4/
+    - xform/(^|[ '])(x)(qq?|xx?|vv?)?($|[ '])/$1ㆭ$3$4/
+
+    # 聲調
     - xform/([ptk])qq/$1ʻ/
     - xform/([ptk])q/$1/
     - xform/([ptk])v/$1˙/
@@ -123,8 +128,10 @@ translator:
     - xform/qq/ˆ/
     - xform/q/ˋ/
 
+    # jung 特例
     - xform/jung/ㄩㄥ/
 
+    # 聲母簡拼
     - xform/jy/y/
     - xform/yu/v/
     - xform/(j|y)i/i/
@@ -136,7 +143,6 @@ translator:
 
     # 雙字符轉換
     - xform/(oe|eo)/O/
-
     - xform/ng/x/
 
     # aa 轉換
@@ -154,10 +160,6 @@ translator:
     - xform/ou/ㄡ/
     - xform/on/干/ #借用漢字「干」
     - xform/ox/丄/ #借用漢字「丄」
-
-    # m/ng 轉換
-    - xform/(^|[ '])(m)($|[ '])/$1ㆬ$3/
-    - xform/(^|[ '])(ng)($|[ '])/$1ㆭ$3/
 
     # 尾音轉換
     - xform/(A|a|e|i|o|u|v|O)(m|n|x|p|t|k)/$1\U$2/

@@ -113,6 +113,7 @@ translator:
   prism: jyut6ping3_bpmf_cpg
   spelling_hints: 8
   preedit_format:
+    # 聲調
     - xform/([ptk])qq/$1ʻ/
     - xform/([ptk])q/$1/
     - xform/([ptk])v/$1˙/
@@ -122,6 +123,8 @@ translator:
     - xform/x/ˇ/
     - xform/qq/ˆ/
     - xform/q/ˋ/
+
+    # 聲母簡拼
     - xform/jy/y/
     - xform/yu/v/
     - xform/(j|y)i/i/
@@ -133,7 +136,6 @@ translator:
 
     # 雙字符轉換
     - xform/(oe|eo)/O/
-
     - xform/ng/x/
 
     # aa 轉換
@@ -142,13 +144,16 @@ translator:
     - xform/aan/ㄢ/
     - xform/aax/ㄤ/
     - xform/aa/A/
+
     # a 轉換
     - xform/ai/ㄟ/
     - xform/au/ㄡ/
     - xform/an/ㄣ/
     - xform/ax/ㄥ/
+
     # 尾音轉換
     - xform/(A|a|e|i|o|u|v|O)(m|n|x|p|t|k)/$1\U$2/
+
     # 轉換成注音符號
     - "xlit|abcdefghiklmnopstuvxzAOMNXPTK|ㆿㄅㄑㄉㄝㄈㄍㄏㄧㄎㄌㄇㄋㄛㄆㄒㄊㄨㄩㄫㄐㄚㆾㄇㄋㄫㆴㆵㆻ|"
 
