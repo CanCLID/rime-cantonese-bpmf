@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 schema:
-  schema_id: jyut6ping3_bpmf_cpg
+  schema_id: jyut6ping3_bpmf_ng
   name: 粵語拼音（人民政府注音版）
   version: "2020.05.26"
   author:
@@ -15,7 +15,7 @@ schema:
   description: |-
     採用香港語言學學會粵語拼音方案
     https://www.lshk.org/jyutping
-    支援人民政府注音顯示
+    支援國民政府注音顯示
     Telegram 用户交流組 https://t.me/rime_cantonese
 
   dependencies:
@@ -110,7 +110,7 @@ speller:
 
 translator:
   dictionary: jyut6ping3
-  prism: jyut6ping3_bpmf_cpg
+  prism: jyut6ping3_bpmf_ng
   spelling_hints: 8
   preedit_format:
     - xform/([ptk])qq/$1ʻ/
@@ -122,12 +122,15 @@ translator:
     - xform/x/ˇ/
     - xform/qq/ˆ/
     - xform/q/ˋ/
+
+    - xform/jung/ㄩㄥ/
+
     - xform/jy/y/
     - xform/yu/v/
     - xform/(j|y)i/i/
     - xform/(j|y)/i/
-    - xform/gw/ㆼ/
-    - xform/kw/ㆽ/
+    - xform/gw/ㄍㄨ/
+    - xform/kw/ㄎㄨ/
     - xform/wu/u/
     - xform/w/u/
 
@@ -139,18 +142,27 @@ translator:
     # aa 轉換
     - xform/aai/ㄞ/
     - xform/aau/ㄠ/
+    - xform/aam/ㆰ/ # 借臺語符號一用
     - xform/aan/ㄢ/
     - xform/aax/ㄤ/
     - xform/aa/A/
-    # a 轉換
-    - xform/ai/ㄟ/
-    - xform/au/ㄡ/
-    - xform/an/ㄣ/
-    - xform/ax/ㄥ/
+
+    # e 轉換
+    - xform/ei/ㄟ/
+
+    # o 轉換
+    - xform/ou/ㄡ/
+    - xform/on/干/ #借用漢字「干」
+    - xform/ox/丄/ #借用漢字「丄」
+
+    # m/ng 轉換
+    - xform/(^|[ '])(m)($|[ '])/$1ㆬ$3/
+    - xform/(^|[ '])(ng)($|[ '])/$1ㆭ$3/
+
     # 尾音轉換
     - xform/(A|a|e|i|o|u|v|O)(m|n|x|p|t|k)/$1\U$2/
     # 轉換成注音符號
-    - "xlit|abcdefghiklmnopstuvxzAOMNXPTK|ㆿㄅㄑㄉㄝㄈㄍㄏㄧㄎㄌㄇㄋㄛㄆㄒㄊㄨㄩㄫㄐㄚㆾㄇㄋㄫㆴㆵㆻ|"
+    - "xlit|abcdefghiklmnopstuvxzAOMNXPTK|ㆿㄅㄘㄉㄝㄈㄍㄏㄧㄎㄌㄇㄋㄛㄆㄙㄊㄨㄩㄫㄗㄚ￥ㆬㄣㄥㆴㆵㆶ|"
 
 luna_pinyin:
   tag: luna_pinyin
