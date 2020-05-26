@@ -122,17 +122,20 @@ translator:
     - xform/x/ˇ/
     - xform/qq/ˆ/
     - xform/q/ˋ/
-    - xform/jyu/yu/
+    - xform/jy/y/
     - xform/yu/v/
     - xform/(j|y)i/i/
     - xform/(j|y)/i/
-    - xform/wu/u/
-    - xform/w/u/
-    # 雙字符轉換
-    - xform/(oe|eo)/O/
     - xform/gw/ㆼ/
     - xform/kw/ㆽ/
+    - xform/wu/u/
+    - xform/w/u/
+
+    # 雙字符轉換
+    - xform/(oe|eo)/O/
+
     - xform/ng/x/
+
     # aa 轉換
     - xform/aai/ㄞ/
     - xform/aau/ㄠ/
@@ -145,9 +148,9 @@ translator:
     - xform/an/ㄣ/
     - xform/ax/ㄥ/
     # 尾音轉換
-    - xform/(A|a|e|i|o|u|v)(m|n|x|p|t|k)/$1\U$2/
+    - xform/(A|a|e|i|o|u|v|O)(m|n|x|p|t|k)/$1\U$2/
     # 轉換成注音符號
-    - "xlit|abcdefghiklmnopstuVxzAOMNXPTK|ㆿㄅㄑㄉㄝㄈㄍㄏㄧㄎㄌㄇㄋㄛㄆㄒㄊㄨㄩㄫㄐㄚㆾㄇㄋㄫㆴㆵㆻ|"
+    - "xlit|abcdefghiklmnopstuvxzAOMNXPTK|ㆿㄅㄑㄉㄝㄈㄍㄏㄧㄎㄌㄇㄋㄛㄆㄒㄊㄨㄩㄫㄐㄚㆾㄇㄋㄫㆴㆵㆻ|"
 
 luna_pinyin:
   tag: luna_pinyin
