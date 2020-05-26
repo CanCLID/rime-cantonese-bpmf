@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3_bpmf_cpg
   name: 粵語拼音（人民政府注音版）
-  version: "2020.05.25"
+  version: "2020.05.26"
   author:
     - sgalal <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
@@ -110,7 +110,7 @@ speller:
 
 translator:
   dictionary: jyut6ping3
-  prism: jyut6ping3_bpmf_cpg
+  prism: jyut6ping3_ipa
   spelling_hints: 8
   preedit_format:
     - xform/([ptk])qq/$1ʻ/
@@ -122,39 +122,32 @@ translator:
     - xform/x/ˇ/
     - xform/qq/ˆ/
     - xform/q/ˋ/
-
-    # j/w 聲母簡化
     - xform/jyu/yu/
-    - Xform/yu/v/
+    - xform/yu/v/
     - xform/(j|y)i/i/
     - xform/(j|y)/i/
     - xform/wu/u/
-    - xform/w/i/
-
+    - xform/w/u/
     # 雙字符轉換
     - xform/(oe|eo)/O/
     - xform/gw/ㆼ/
     - xform/kw/ㆽ/
     - xform/ng/x/
-
     # aa 轉換
     - xform/aai/ㄞ/
     - xform/aau/ㄠ/
     - xform/aan/ㄢ/
     - xform/aax/ㄤ/
     - xform/aa/A/
-
     # a 轉換
     - xform/ai/ㄟ/
     - xform/au/ㄡ/
     - xform/an/ㄣ/
     - xform/ax/ㄥ/
-
     # 尾音轉換
     - xform/(A|a|e|i|o|u|v)(m|n|x|p|t|k)/$1\U$2/
-
     # 轉換成注音符號
-    - "xlit|abcdefghiklmnopstuvxzAOMNXPTK|ㆿㄅㄑㄉㄝㄈㄍㄏㄧㄎㄌㄇㄋㄛㄆㄒㄊㄨㄩㄫㄐㄚㆾㄇㄋㄫㆴㆵㆻ|"
+    - "xlit|abcdefghiklmnopstuVxzAOMNXPTK|ㆿㄅㄑㄉㄝㄈㄍㄏㄧㄎㄌㄇㄋㄛㄆㄒㄊㄨㄩㄫㄐㄚㆾㄇㄋㄫㆴㆵㆻ|"
 
 luna_pinyin:
   tag: luna_pinyin
