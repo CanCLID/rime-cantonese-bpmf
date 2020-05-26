@@ -13,8 +13,8 @@
 本方案使用Unicode 13.0字符。如果你喺上面個標題度見到「□」，噉即係你嘅系統唔支援Unicode 13.0。
 
 ## 說明：（按方案時序排列）
-`jyut6ping3_bpmf_ng`: 國民政府粵語注音方案
-`jyut6ping3_bpmf_cpg`: 人民政府粵語注音方案
+* `jyut6ping3_bpmf_ng`: 國民政府粵語注音方案
+* `jyut6ping3_bpmf_cpg`: 人民政府粵語注音方案
 
 註：-p, -t, -k 遷就 Unicode，用「ㆴ、ㆵ、ㆻ」表示。
 
