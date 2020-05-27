@@ -1,5 +1,5 @@
-<h1> 
-  <ruby> 
+<h1>
+  <ruby>
     粵 <rp>(</rp><rt>ㄩㆵ</rt><rp>)</rp>
     語 <rp>(</rp><rt>ㄩ</rt><rp>)</rp>
     注 <rp>(</rp><rt>ㄐㄩ</rt><rp>)</rp>
@@ -7,8 +7,10 @@
     輸 <rp>(</rp><rt>ㄒㄩ</rt><rp>)</rp>
     入 <rp>(</rp><rt>ㄧㆿㆴ</rt><rp>)</rp>
     法 <rp>(</rp><rt>ㄈㄚㆵ</rt><rp>)</rp>
-  </ruby> 
+  </ruby>
 </h1>
+
+依賴於:[`rime-cantonese`](https://github.com/rime/rime-cantonese)
 
 本方案使用Unicode 13.0字符。如果你喺上面個標題度見到「□」，噉即係你嘅系統唔支援Unicode 13.0。
 
