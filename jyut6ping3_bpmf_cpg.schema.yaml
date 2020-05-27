@@ -1,7 +1,7 @@
 # Rime schema
 # encoding: utf-8
 
-__include: jyut6ping3:/
+__include: jyut6ping3.schema:/
 
 schema:
   schema_id: jyut6ping3_bpmf_cpg
