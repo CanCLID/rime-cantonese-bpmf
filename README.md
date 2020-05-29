@@ -10,7 +10,7 @@
   </ruby>
 </h1>
 
-依賴於:[`rime-cantonese`](https://github.com/rime/rime-cantonese)
+依賴於: [`rime-cantonese`](https://github.com/rime/rime-cantonese)
 
 本方案使用Unicode 13.0字符。如果你喺上面個標題度見到「□」，噉即係你嘅系統唔支援Unicode 13.0。
 
@@ -20,6 +20,10 @@
 
 註：-p, -t, -k 遷就 Unicode，用「ㆴ、ㆵ、ㆻ」表示。
 
+其他拼音方案：[`tanxpyox/rime-cantonese-schemes-editor`](https://github.com/tanxpyox/rime-cantonese-schemes-editor)
+
 ## 安裝
-東風破口令:
-`bash rime-install tanxpyox/rime-cantonese-bpmf`
+* 東風破口令:
+```sh
+bash rime-install tanxpyox/rime-cantonese-bpmf
+```
