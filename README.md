@@ -20,10 +20,10 @@
 
 註：-p, -t, -k 遷就 Unicode，用「ㆴ、ㆵ、ㆻ」表示。
 
-其他拼音方案：[`tanxpyox/rime-cantonese-schemes-editor`](https://github.com/tanxpyox/rime-cantonese-schemes-editor)
+其他拼音方案：[`CanCLID/rime-cantonese-schemes-editor`](https://github.com/CanCLID/rime-cantonese-schemes-editor)
 
 ## 安裝
 * 東風破口令:
 ```sh
-bash rime-install tanxpyox/rime-cantonese-bpmf
+bash rime-install canclid/rime-cantonese-bpmf
 ```
