@@ -20,7 +20,7 @@
 * `jyut6ping3_bpmf_cpg`: 人民政府粵語注音方案
 * 下載部署完之後，輸入正確嘅「粵拼」就會顯示對應嘅粵語注音——用 Ctrl + Enter 就可以將注音符號貼出嚟嘞。
 
-註：-p, -t, -k 遷就 Unicode，用「 ㆴ、ㆵ、ㆻ 」表示。
+註：國民政府方案嘅 -p, -t, -k 遷就 Unicode，用「 ㆴ、ㆵ、ㆶ」表示。
 
 其他拼音方案：[`CanCLID/rime-cantonese-schemes-editor`](https://github.com/CanCLID/rime-cantonese-schemes-editor)
 

@@ -20,7 +20,7 @@ translator:
   preedit_format:
     # m/ng 轉換
     - xform/(^|[ '])(m)(qq?|xx?|vv?)?($|[ '])/$1ㆬ$3$4/
-    - xform/(^|[ '])(x)(qq?|xx?|vv?)?($|[ '])/$1ㆭ$3$4/
+    - xform/(^|[ '])(ng)(qq?|xx?|vv?)?($|[ '])/$1ㆭ$3$4/
 
     # 聲調
     - xform/([ptk])qq/$1ʻ/
@@ -48,14 +48,15 @@ translator:
 
     # 雙字符轉換
     - xform/(oe|eo)/O/
-    - xform/ng/x/
+    - xform/(^|[ '])ng/$1x/
+    - xform/ng($|[ 'vxq])/X$1/
 
     # aa 轉換
     - xform/aai/ㄞ/
     - xform/aau/ㄠ/
     - xform/aam/ㆰ/ # 借臺語符號一用
     - xform/aan/ㄢ/
-    - xform/aax/ㄤ/
+    - xform/aaX/ㄤ/
     - xform/aa/A/
 
     # e 轉換
@@ -64,9 +65,10 @@ translator:
     # o 轉換
     - xform/ou/ㄡ/
     - xform/on/干/ #借用漢字「干」
-    - xform/ox/丄/ #借用漢字「丄」
+    - xform/oX/丄/ #借用漢字「丄」
 
     # 尾音轉換
-    - xform/(A|a|e|i|o|u|v|O)(m|n|x|p|t|k)/$1\U$2/
+    - xform/(A|a|e|i|o|u|v|O)(m|n|X|p|t|k)/$1\U$2/
+    
     # 轉換成注音符號
     - "xlit|abcdefghiklmnopstuvxzAOMNXPTK|ㆿㄅㄘㄉㄝㄈㄍㄏㄧㄎㄌㄇㄋㄛㄆㄙㄊㄨㄩㄫㄗㄚ￥ㆬㄣㄥㆴㆵㆶ|"

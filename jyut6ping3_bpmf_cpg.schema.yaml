@@ -41,23 +41,27 @@ translator:
 
     # 雙字符轉換
     - xform/(oe|eo)/O/
-    - xform/ng/x/
+    - xform/(^|[ '])ng/$1x/
+    - xform/ng($|[ 'vxq])/X$1/
 
     # aa 轉換
     - xform/aai/ㄞ/
     - xform/aau/ㄠ/
     - xform/aan/ㄢ/
-    - xform/aax/ㄤ/
+    - xform/aaX/ㄤ/
     - xform/aa/A/
 
     # a 轉換
     - xform/ai/ㄟ/
     - xform/au/ㄡ/
     - xform/an/ㄣ/
-    - xform/ax/ㄥ/
+    - xform/aX/ㄥ/
 
     # 尾音轉換
     - xform/(A|a|e|i|o|u|v|O)(m|n|x|p|t|k)/$1\U$2/
 
+    # 尾音下標一點
+    - xform/([MNXPTK])/$1̣/
+
     # 轉換成注音符號
-    - "xlit|abcdefghiklmnopstuvxzAOMNXPTK|ㆿㄅㄑㄉㄝㄈㄍㄏㄧㄎㄌㄇㄋㄛㄆㄒㄊㄨㄩㄫㄐㄚㆾㄇㄋㄫㆴㆵㆻ|"
+    - "xlit|abcdefghiklmnopstuvxzAOMNXPTK|ㆿㄅㄑㄉㄝㄈㄍㄏㄧㄎㄌㄇㄋㄛㄆㄒㄊㄨㄩㄫㄐㄚㆾㄇㄋㄫㄆㄊㄎ|"
