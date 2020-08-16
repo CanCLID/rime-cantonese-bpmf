@@ -49,7 +49,7 @@ translator:
     # 雙字符轉換
     - xform/(oe|eo)/O/
     - xform/(^|[ '])ng/$1x/
-    - xform/ng($|[ 'vxq])/X$1/
+    - xform/ng/X$1/
 
     # aa 轉換
     - xform/aai/ㄞ/
